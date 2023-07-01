@@ -13,7 +13,7 @@ namespace lab06
 
         public override void Eat()
         {
-            Console.WriteLine($"{Name} eats gross and Rabbits and fish");
+            Console.WriteLine($"{Name} eats Rabbits and fish");
         }
 
         public override bool Fly()
