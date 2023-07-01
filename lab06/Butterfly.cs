@@ -16,7 +16,7 @@ namespace lab06
 
         public override void Eat()
         {
-            Console.WriteLine("Floral flowers, or the liquids of rotting fruits");
+            Console.WriteLine($"{Name} eates Floral flowers, or the liquids of rotting fruits");
         }
 
        
@@ -27,6 +27,10 @@ namespace lab06
         public override void Sleep()
         {
             base.Sleep();
+        }
+        public void LiveInHome()
+        {
+            Console.WriteLine($"{Name} can stay in home its a lucky insect");
         }
 
     }

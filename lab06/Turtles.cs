@@ -23,16 +23,16 @@ namespace lab06
         }
         public override void Sound()
         {
-          Console.WriteLine("Most turtles are silent, but there are giant turtles that growl, roar and growl.");
+          Console.WriteLine($"{Name} Sound: Most turtles are silent, but there are giant turtles that growl, roar and growl.");
 
         }
         public override void Eat()
         {
-            Console.WriteLine("Vegetables, fruits, cockroaches, and worms\r\n");
+            Console.WriteLine($"{Name} Vegetables, fruits, cockroaches, and worms\r\n");
         }
         public override void Sleep()
         {
-           Console.WriteLine("Turtles sleep");
+           Console.WriteLine($"{Name} sleep");
         }
 
     }

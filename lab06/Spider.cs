@@ -9,19 +9,19 @@ namespace lab06
     {
         public override string Name { get; set; }
         public override int HasLegs { get; set; }
-        public override bool Venomous { get; set; }
+        public override bool Venomous { get; set; } = true;
         public override string Nostrils { get; set; }
 
         public Spider(string name, int leg, bool IsVenomous, string nostrils) : base(name, leg, IsVenomous, nostrils) { }
 
         public override void Eat()
         {
-            Console.WriteLine("Insects");
+            Console.WriteLine($"{Name} eats Insects");
         }
 
         public string MightAttack()
         {
-            return "Depends on my type but I could kill you";
+            return $"{Name }: Depends on my type but I could kill you";
         }
         public override void Sound()
         {

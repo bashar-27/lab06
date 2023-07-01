@@ -16,7 +16,7 @@ namespace lab06
 
         public override string Swim()
         {
-            return "Some turtles can swimming";
+            return "all dolphins can swimming";
         }
         public override bool Fly()
         {
