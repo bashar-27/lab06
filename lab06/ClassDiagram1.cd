@@ -44,7 +44,7 @@
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAgAAAAAAAAA=</HashCode>
       <FileName>Invertebrates.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -82,7 +82,7 @@
     <Position X="9.75" Y="7.25" Width="1.5" />
     <InheritanceLine Type="lab06.Invertebrates" ManuallyRouted="true" FixedToPoint="true">
       <Path>
-        <Point X="10.75" Y="6.434" />
+        <Point X="10.75" Y="6.627" />
         <Point X="10.75" Y="7.125" />
         <Point X="10.625" Y="7.125" />
         <Point X="10.625" Y="7.25" />
@@ -94,49 +94,49 @@
     </TypeIdentifier>
   </Class>
   <Class Name="lab06.Dolphin">
-    <Position X="20.5" Y="10.5" Width="1.5" />
-    <InheritanceLine Type="lab06.Mammals" ManuallyRouted="true" FixedToPoint="true">
+    <Position X="20.5" Y="10.75" Width="1.5" />
+    <InheritanceLine Type="lab06.Mammals" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="21.25" Y="10.069" />
-        <Point X="21.25" Y="10.26" />
-        <Point X="21.188" Y="10.26" />
-        <Point X="21.188" Y="10.5" />
+        <Point X="21.312" Y="10.069" />
+        <Point X="21.312" Y="10.26" />
+        <Point X="21.312" Y="10.75" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAEQAAAAAAAAIAAAQAAAAAACAABAABAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAEQQAAAAAAAIAAAQAAAAAACAABAABAAAAAAA=</HashCode>
       <FileName>Dolphin.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="lab06.Turtles">
-    <Position X="16.5" Y="10.25" Width="1.5" />
+    <Position X="16.75" Y="10.25" Width="1.5" />
     <InheritanceLine Type="lab06.Reptiles" FixedToPoint="true">
       <Path>
         <Point X="17.5" Y="8.983" />
-        <Point X="17.5" Y="9.875" />
-        <Point X="17.188" Y="9.875" />
-        <Point X="17.188" Y="10.25" />
+        <Point X="17.5" Y="10.25" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAEQAAAAAAAAIAAAQAAAAAACAABAABAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAEQAAAAAAAAIAAAQAEAAAACAABAABAAAAABA=</HashCode>
       <FileName>Turtles.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="lab06.Spider">
-    <Position X="8.75" Y="10" Width="1.5" />
+    <Position X="8.25" Y="10" Width="1.5" />
     <InheritanceLine Type="lab06.Arthropods" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
       <Path>
         <Point X="10.125" Y="9.127" />
         <Point X="10.125" Y="9.625" />
-        <Point X="9.562" Y="9.625" />
-        <Point X="9.562" Y="10" />
+        <Point X="9.188" Y="9.625" />
+        <Point X="9.188" Y="10" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAEQAAAAAAAAIAAAQAAAAAAAAABgQAAAAAAAQ=</HashCode>
+      <HashCode>AAAAAAAAEQAAAAAAAAIAAAAAEAAAAAAABgQAAAAAABA=</HashCode>
       <FileName>Spider.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="lab06.Birds">
     <Position X="25.25" Y="8" Width="1.5" />
@@ -146,18 +146,41 @@
     </TypeIdentifier>
   </Class>
   <Class Name="lab06.Bird">
-    <Position X="25.25" Y="10.75" Width="1.5" />
+    <Position X="25.25" Y="11.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAEQAAAAAAAAAAAAAAAAAAAAAABAABAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAEQQAAAAAAAAAAAAAAAAAAAAABAABAAAAAAA=</HashCode>
       <FileName>Bird.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="lab06.Butterfly">
     <Position X="11.5" Y="10" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAEQAAAAAAAAIAAAQAAAAAAAAABgQAAAAACAA=</HashCode>
+      <HashCode>AAAAAAAAEQAAAAAAAAIAAAQAEAAAAAAABgQAAAAACAA=</HashCode>
       <FileName>Butterfly.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
+  <Interface Name="lab06.Attack">
+    <Position X="13.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Attack.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="lab06.Scales">
+    <Position X="13.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Scales.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="lab06.Edible">
+    <Position X="13.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Edible.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

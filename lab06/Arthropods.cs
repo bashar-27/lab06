@@ -7,6 +7,7 @@ namespace lab06
 {
     public abstract class Arthropods : Invertebrates
     {
+      
         public virtual string Nostrils { get; set; }
         public Arthropods(string name, int leg, bool IsVenomous, string nostrils) : base(name, leg, IsVenomous)
         {

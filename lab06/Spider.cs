@@ -5,13 +5,15 @@ using System.Text;
 
 namespace lab06
 {
-    public class Spider : Arthropods
+    public class Spider : Arthropods,Attack , Scales
     {
-        public override string Name { get; set; }
-        public override int HasLegs { get; set; }
+
+     
+        public override int HasLegs { get; set; } = 6;
         public override bool Venomous { get; set; } = true;
         public override string Nostrils { get; set; }
 
+      
         public Spider(string name, int leg, bool IsVenomous, string nostrils) : base(name, leg, IsVenomous, nostrils) { }
 
         public override void Eat()
@@ -19,7 +21,7 @@ namespace lab06
             Console.WriteLine($"{Name} eats Insects");
         }
 
-        public string MightAttack()
+        public string IAttack()
         {
             return $"{Name }: Depends on my type but I could kill you";
         }
@@ -31,9 +33,11 @@ namespace lab06
         {
             base.Sleep();
         }
+     
 
-        
-
-        
+        public bool IsThereScale()
+        {
+           return false;
+        }
     }
 }

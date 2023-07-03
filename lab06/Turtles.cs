@@ -6,7 +6,7 @@ using System.Xml.Linq;
 
 namespace lab06
 {
-    public class Turtles : Reptiles
+    public class Turtles : Reptiles, Scales , Attack
     {
         public override string Name { get; set; }
         public override int HasLegs { get; set; } = 4;
@@ -33,6 +33,14 @@ namespace lab06
         public override void Sleep()
         {
            Console.WriteLine($"{Name} sleep");
+        }
+        public bool IsThereScale()
+        {
+            return true;
+        }
+        public string IAttack()
+        {
+            return "Turtles are non-attacker";
         }
 
     }

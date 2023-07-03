@@ -17,8 +17,6 @@ namespace lab06
            
         }
 
-        
-
         public abstract bool Fly();
 
         public virtual string Swim()
