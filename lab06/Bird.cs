@@ -5,7 +5,7 @@ using System.Text;
 
 namespace lab06
 {
-    public class Bird : Birds
+    public class Bird : Birds , Edible
     {
         public Bird(string name, int leg, bool WarmBlood, bool Eggs, bool swings) : base(name, leg, WarmBlood, Eggs, swings)
         {
@@ -29,6 +29,10 @@ namespace lab06
         public override void Sound()
         {
             
+        }
+        public string IsEdible()
+        {
+            return "Most of the birds are edible";
         }
     }
 }
