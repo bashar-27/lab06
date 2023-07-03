@@ -57,4 +57,27 @@
  
 * This allows different types of birds to be treated uniformly as Bird while invoking their specific behaviors.
 
+  <hr>
+  <h1>New Update Lab07</h1>
+  <h2>Interface :</h2>
+  <p>In simplest terms, An Interface is like a Contract, where every member or component included in the body has to follow the contract, it defines what must be done.
+    Always defined by the use of the keyword “interface”.
+</p>
+
+<h4>I provided  three interfaces: <code>Scales</code> ,<code>Attack</code> , and <code>Edible</code>. 
+
+  1. Scales interface:
+IsThereScale() method: This method returns a boolean value (bool) and indicates whether there are scales present. The exact implementation of this method will depend on the class that implements this interface. It is expected to provide logic to determine if there are scales or not.
+
+  2. Attack interface:
+IAttack() method: This method returns a string (string) and represents an attack action. The method is intended to define the behavior of an attack action. The implementation of this method will vary depending on the class that implements this interface. It could return a specific attack name, perform an attack calculation, or trigger any other desired action related to attacking.
+
+  3. IsEdible() method: This method returns a string (string) and is used to determine if something is edible. The implementation of this method will depend on the class that implements this interface.
+</h4>
+
+<hr>
+
+ <h2>NEW UML DIAGREAM</h2> 
+ 
+![Screenshot 2023-07-03 185432](https://github.com/bashar-27/lab06/assets/83985765/16ceb4dc-94ca-423e-bdfb-feaa37a42a2f)
 
